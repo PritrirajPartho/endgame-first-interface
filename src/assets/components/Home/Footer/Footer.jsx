@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <section className='p-10 bg-primary  text-white'>
+        <section className='p-10 bg-[#22d3ee]  text-white'>
             <footer className="footer">
                 <div>
                     <span className="footer-title  text-white">Navigation</span> 
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/instructors">Instructors</Link></li>
-                    <li><Link to="/classes">Classes</Link></li>
-                    <li><Link to="/signup">Signup</Link></li>
+                    <li><Link to="/collegs">Colleges</Link></li>
+                    <li><Link to="/admission">Admission</Link></li>
+                    <li><Link to="/mycolleges">My College</Link></li>
                 </div> 
                 <div>
                     <span className="footer-title  text-white">Others</span> 
                     <a className="link link-hover">About us</a> 
                     <a className="link link-hover">Contact</a> 
-                    <a className="link link-hover">Jobs</a> 
+                    <a className="link link-hover">Others</a> 
                     <a className="link link-hover">Dhaka, Bangladesh</a>
-                    <h1 className='mt-6 text-xl'> Already reserved © Sparkle Sports Academy</h1>
+                    <h1 className='mt-6 text-xl'> Already reserved © EduCollege.com</h1>
                 </div> 
                  <div>
                     <span className="footer-title  text-white">Social</span> 
